@@ -1,6 +1,6 @@
 # Small-Cell MTP Training  
 
-This repository provides example scripts for performing small-cell active learning with Moment Tensor Potentials (MTP) and Quantum Espresso. These scripts serve as a reference for users implementing MTP active learning (AL) and small-cell training with Quantum Espresso, but are not intended as plug-and-play solutions.  
+This repository provides example scripts for performing small-cell active learning with Moment Tensor Potentials (MTP) **MLIP-3** and **Quantum Espresso 6.6**. These scripts serve as a reference for users implementing MTP active learning (AL) and small-cell training with Quantum Espresso, but are not intended as plug-and-play solutions.  
 
 Sample K and NaK potentials are provided with their training set in `samplePots`.
 ## Overview  
