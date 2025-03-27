@@ -115,7 +115,7 @@ def writeMTPConfigs(filename: str, mtpPropertiesList: list):
         for mtpProperties in mtpPropertiesList:
             f.write("BEGIN_CFG\n")
             f.write(" Size\n")
-            f.write("    " + str(len(mtpProperties["atomIDs"])) + "\n")
+            f.write("    " + str(len(mtpProperties["atomPositions"])) + "\n")
             f.write(" Supercell\n")
             for row in mtpProperties["superCell"]:
                 f.write("    ")
