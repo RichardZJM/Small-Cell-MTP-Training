@@ -78,6 +78,7 @@ with open("/path/to/config.json", "r") as f:
 - If an initial training set is provided but no potential, a new potential is trained first.  
 - Providing an initial potential **without** an initial training set is invalid.
 - There are rudimentary checks to resume terminated runs.
+- Be careful with Quantum Espresso verbosity, which may affect the parsers
 
 ## Customization  
 
